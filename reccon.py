@@ -14,6 +14,6 @@ for crt in jsonData:
     crtTime = dt.datetime.strptime(crt['start_time'], '%Y-%m-%d %X')
     if crtTime < x:
         print('%14s  %30s  %s' %
-              (crt['oj'], crt['name'], crtTime.strftime('%d %b %a %I:%M')))
+              (crt['oj'], crt['name'], crtTime.strftime('%d %b %a %H:%M')))
     else:
         break

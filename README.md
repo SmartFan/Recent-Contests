@@ -2,10 +2,10 @@
 Prints recent algorithm contests on sevral known online judges.
 
 # Install
-	$ make install
+	$ sudo make install
 
 # Remove
-	$ make remove
+	$ sudo make remove
 
 # Usage
 	$ reccon

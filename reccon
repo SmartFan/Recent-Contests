@@ -1,0 +1,2 @@
+#!/bin/sh 
+python3 ~/.reccon/reccon.py
